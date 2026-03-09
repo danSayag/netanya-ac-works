@@ -1,0 +1,48 @@
+﻿
+namespace RecoursiveConstructor_Image_Text
+{
+    partial class UserControl1
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            SuspendLayout();
+            // 
+            // UserControl1
+            // 
+            AutoScaleDimensions = new SizeF(23F, 57F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 255, 128);
+            Margin = new Padding(9, 7, 9, 7);
+            Name = "UserControl1";
+            Size = new Size(3370, 210);
+            Click += UserControl1_Click;
+            ResumeLayout(false);
+        }
+
+        #endregion
+    }
+}
